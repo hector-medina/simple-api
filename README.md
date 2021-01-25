@@ -5,7 +5,7 @@ The simple-api repository is a API developed by [Héctor Medina](https://github.
 
 1. Download the .jar files.
 
-In this repository you will find two files which contain the compiled versión of the api. Thos files are **'simple-api.zip'** and **'simple-api.z01'**. 
+In this repository you will find two files which contain the compiled versión of the api. These files are **'simple-api.zip'** and **'simple-api.z01'**. 
 
 2. Decompress the files.
 
