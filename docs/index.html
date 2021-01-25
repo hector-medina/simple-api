@@ -1,1 +1,163 @@
-Hola
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- ############################################################### 
+      HEAD STARTS
+     ############################################################### -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Héctor Medina - Developer | Simple API</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Font logo -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Playball&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="css/fontAwesome/css/all.min.css" rel="stylesheet">
+</head>
+
+<!-- ############################################################### 
+      HEAD ENDS
+     ############################################################### -->
+
+<!-- ############################################################### 
+      BODY STARTS
+     ############################################################### -->
+<body>
+  <!-- NAVBAR STARTS -->
+  <nav class="teal darken-2" role="navigation">
+    <div class="nav-wrapper container" id="navbar-main">
+      <a id="logo-container" href="/" class="brand-logo hide-on-med-and-up" style="margin-top:15px"><i class="fas fa-code"></i></a>
+      <a id="logo-container" href="/" class="brand-logo hide-on-small-only">
+        <i class="fas fa-code"></i> <span style="font-family: 'Playball', cursive;">H. Medina</span>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/">INICIO</a></li>
+        <li><a href="about.html">ACERCA DE</a></li>
+        <li><a href="projects.html">PROYECTOS</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/hector-medina-cabanelas"><i class="fab fa-linkedin"></i></a></li>
+        <li><a target="_blank" href="https://github.com/hector-medina"><i class="fab fa-github-square"></i></a></li>
+        <li><a target="_blank" href="mailto:hector.medina.cabanelas@gmail.com"><i class="fas fa-envelope-square"></i></a></li>
+      </ul>
+      <ul id="nav-mobile" class="sidenav">
+        <li><div class="user-view">
+          <div class="background teal darken-2"></div>
+          <a href="/"><img class="circle" src="images/hector-user-pic.jpeg"></a>
+          <a href="/"><span class="white-text name">Héctor Medina</span></a>
+          <a href="/"><span class="white-text email">hector.medina.cabanelas@gmail.com</span></a>
+          </div>
+        </li>
+        <li><a href="/"><i class="material-icons">home</i>INICIO</a></li>
+        <li><a href="about.html"><i class="fas fa-users"></i></i>ACERCA DE</a></li>
+        <li><a href="projects.html"><i class="fas fa-briefcase"></i>PROYECTOS</a></li>
+        <li><div class="divider"></div></li>
+        <li><a target="_blank" class="waves-effect" href="https://www.linkedin.com/in/hector-medina-cabanelas"><i class="fab fa-linkedin"></i>LINKEDIN</a></li>
+        <li><a target="_blank" class="waves-effect" href="https://github.com/hector-medina"><i class="fab fa-github-square"></i>GITHUB</a></li>
+        <li><a target="_blank" href="mailto:hector.medina.cabanelas@gmail.com"><i class="fas fa-envelope-square"></i> EMAIL</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <!-- NAVBAR ENDS -->
+
+  <!--  PROJECTS STARTS -->
+  <div id="principal" class="container">
+    <div class="row">
+      <h1 class="center-align" style="font-family: 'Playball', cursive;color:#00695c;">Proyectos</h1>
+      <p>Todos los proyectos son desarrollados siguiendo el sistema de control de versiones GIT utilizando 
+        la plataforma <a class="a-texto" target="_blank" href="https://github.com/">GitHub</a>.</p>
+    </div>
+    <div class="row flex">
+      <div class="col s12 m6 xl4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="images/projects/hector-medina.github.io.png">
+            <span class="card-title  teal lighten-5" style="padding:0px 10px 0px 10px;font-size:20px;color: black">hector-medina.github.io</span>
+          </div>
+          <div class="card-content">
+            <p style="min-height:100px">Página <i>portfolio</i> desarrollada en HTML, CSS y JavaScript. Se ha usado también 
+            el framework front-end <i>MaterializeCSS</i>. </p>
+            <p style="padding-top: 5px;">
+              <span class="new badge light-blue darken-4" data-badge-caption="">HTML</span></a>
+              <span class="new badge orange darken-1" data-badge-caption="">CSS</span></a>
+              <span class="new badge deep-orange darken-1" data-badge-caption="">JS</span></a>
+            </p>
+          </div>
+          <div class="card-action">
+            <a class="btn btn-small" target="_blank"  href="https://github.com/hector-medina/hector-medina.github.io">GitHub</a>
+            <a class="btn btn-small right" target="_blank"  href="https://hector-medina.github.io">Pages</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 xl4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="images/projects/simple-api.png">
+            <span class="card-title  teal lighten-5" style="padding:0px 10px 0px 10px;font-size:20px;color: black">simple-api</span>
+          </div>
+          <div class="card-content">
+            <p style="min-height:100px">Simple API developed in Java using SpringBoot.</p>
+            <p style="padding-top: 5px;">
+              <span class="new badge light-blue darken-4" data-badge-caption="">Java</span></a>
+              <span class="new badge orange darken-1" data-badge-caption="">SpringBoot</span></a>
+            </p>
+          </div>
+          <div class="card-action">
+            <a class="btn btn-small" target="_blank"  href="https://github.com/hector-medina/simple-api">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  PROJECTS ENDS-->
+  
+  <footer class="page-footer teal darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text"><i class="fas fa-code"></i> <span style="font-family: 'Playball', cursive;">Héctor Medina</span></h5>
+          <p class="grey-text text-lighten-4">
+            Desarrollador de software Back-end, Front-end y Full Stack. 
+          </p>
+
+
+        </div>
+        <div class="col l3 s12">
+          
+        </div>
+        <div class="col l3 s12">
+          <ul>
+            <li><a class="white-text" target="_blank" href="https://www.linkedin.com/in/hector-medina-cabanelas"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+            <li><a class="white-text" target="_blank" href="https://github.com/hector-medina"><i class="fab fa-github-square"></i> GitHub</a></li>
+            <li><a class="white-text" target="_blank" href="mailto:hector.medina.cabanelas@gmail.com"><i class="fas fa-envelope-square"></i> Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Hecho por <a class="teal-text text-lighten-3" href="https://hector-medina.github.io/">Héctor Medina</a>
+      </div>
+    </div>
+  </footer>
+
+
+ <!-- Compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/jquery.particleground.min.js"></script>
+<script src="js/front-page.js"></script>
+
+</body>
+<!-- ############################################################### 
+    BODY ENDS
+    ############################################################### -->
+</html>
