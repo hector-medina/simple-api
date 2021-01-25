@@ -626,3 +626,7 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,netbeans,visualstudiocode,visualstudio,pycharm
+
+#Not ingnore the .jar file generated.
+
+!simple-api-0.0.1-SNAPSHOT.jar
