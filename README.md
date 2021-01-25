@@ -22,4 +22,4 @@ This will start the server and you will be able to use the repository at 'localh
 
 4. Interact with the API.
 
-To use the API you need to generate valid request. To know more about this, please see the API official doc in: [DOCS](https://documenter.getpostman.com/view/14296685/TW6tNBE6)
+To use the API you need to generate valid requests. To know more about this, please see the API official documentation [DOCS](https://documenter.getpostman.com/view/14296685/TW6tNBE6)
